@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+body {
+    margin: 0px;
+}
+
+.background {
+    width: 100%;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+    .generator-shape {
+        width: 880px;
+        height: 95%;
+        padding: 10px 40px 25px 40px;
+        background-color: aliceblue;
+        border-radius: 30px;
+        box-shadow: 0px 0px 15px 1px #222;
+    }
+        .gen-title {
+            width: 100%;
+            height: 15%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: inherit;
+            color: #444;
+            font-size: 220%;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-bottom: 4px solid lightsteelblue;
+        }
+        .gen-butTitle-dim {
+            width: 100%;
+            height: 8%;
+            padding-bottom: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            background-color: inherit;
+        }
+            .gen-butTitle-prop {
+                display: block;
+                color: #444;
+                font-size: 160%;
+                font-weight: 600;
+                letter-spacing: 1.2px;
+            }
+                .gen-butTitle-prop::first-letter {
+                    text-transform: capitalize;
+                }
+                .gen-butTitle-prop::after {
+                    content: ':';
+                }
+        
+        .gen-butBlock {
+            width: 100%;
+            height: 12.5%;
+            padding-top: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            background-color: inherit;
+            border-bottom: 4px solid lightsteelblue;
+        }
+            .gen-button {
+                width: 250px;
+                height: 2.6em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: aliceblue;
+                font-size: 120%;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color: aliceblue;
+                text-shadow: 0px 0px 5px #000;
+                border: 4px solid #333;
+                border-radius: 12px;
+                box-shadow: inset 0px 0px 50px 50px cornflowerblue;
+                transition-duration: 0.2s;
+            }
+                .gen-button:hover {
+                    cursor: pointer;
+                    box-shadow: inset 0px 0px 50px 15px cornflowerblue;
+                    transition-duration: 0.2s;
+                }
+                .gen-button:active {
+                    box-shadow: inset 0px 0px 50px 10px cornflowerblue;
+                    transition-duration: 0s;
+                }
+                .gen-button::selection {
+                    background-color: rgba(0,0,0,0.0);
+                }
+        .gen-setting-titDim {
+            width: 100%;
+            height: 8%;
+            padding-top: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: inherit;   /*cadetblue*/
+        }
+            .gen-setting-titProp {
+                display: block;
+                color: #444;
+                font-size: 160%;
+                font-weight: 600;
+                letter-spacing: 1.2px;
+            }
+                .gen-setting-titProp::first-letter {
+                    text-transform: capitalize;
+                }
+                .gen-setting-titProp::after {
+                    content: ':';
+                }
+        .gen-password-titDim {
+            width: 100%;
+            height: 8%;
+            padding-bottom: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: inherit;
+            border-bottom: 4px solid lightsteelblue;
+        }
+            .gen-password-value {
+                display: block;
+                color: rgb(37, 37, 135);
+                font-size: 140%;
+                font-weight: 600;
+                letter-spacing: 1px;
+            }
+        .gen-setting-blDim {
+            width: 100%;
+            height: 40.5%;
+            background-color: inherit;
+        }
+            .gen-setting-blProp {
+                width: 100%;
+                height: 0%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                background-color: inherit;
+                border: 0px solid limegreen;
+            }
+                .gen-setting-subTDim {
+                    width: 38%;
+                    height: 100%;
+                    padding-left: 10px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    background-color: inherit;
+                    border: 0px solid violet;
+                }
+                    .gen-setting-subTProp, .gen-setting-rangeVal {
+                        display: inline-block;
+                        background-color: inherit;
+                        color: #444;
+                        font-size: 105%;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                        border: 0px solid black;
+                    }
+                        .gen-setting-subTProp::first-letter {
+                            text-transform: capitalize;
+                        }
+                .gen-setting-inpB {
+                    width: 4%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 0px solid darkcyan;
+                }
+                    .checkbox-style {
+                        width: 15px;
+                        height: 15px;
+                    }
+                .gen-setting-inpS {
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 0px solid darkcyan;
+                }
+                    .range-style {
+                        width: 93%;
+                        height: 15px;
+                    }

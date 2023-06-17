@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" lang="PL-pl" />
+        <title>Password generator</title>
+        <link rel="stylesheet" href="pswGen.css" text="type/css" />
+    </head>
+    <body>
+        
+        <div class="background">
+            <div class="generator-shape">
+                <div class="gen-title">password generator</div>
+                <div class="gen-butTitle-dim">
+                    <div class="gen-butTitle-prop">generate your password</div>
+                </div>
+                <div class="gen-butBlock">
+                    <div class="gen-button">generate</div>
+                </div>
+                <div class="gen-setting-titDim">
+                    <div class="gen-setting-titProp">your password</div>
+                </div>
+                <div class="gen-password-titDim">
+                    <div class="gen-password-value"></div>
+                </div>
+                <div class="gen-setting-titDim">
+                    <div class="gen-setting-titProp">options</div>
+                </div>
+                <div class="gen-setting-blDim">
+                    <div class="gen-setting-blProp">
+                        <div class="gen-setting-subTDim">
+                            <div class="gen-setting-subTProp">add small letters:</div>
+                        </div>
+                        <div class="gen-setting-inpB">
+                            <input type="checkbox" class="checkbox-style smallLetter-checB chBtoCheck" />
+                        </div>
+                    </div>
+                    <div class="gen-setting-blProp">
+                        <div class="gen-setting-subTDim">
+                            <div class="gen-setting-subTProp">add big letters:</div>
+                        </div>
+                        <div class="gen-setting-inpB">
+                            <input type="checkbox" class="checkbox-style bigLetter-checB chBtoCheck" />
+                        </div>
+                    </div>
+                    <div class="gen-setting-blProp">
+                        <div class="gen-setting-subTDim">
+                            <div class="gen-setting-subTProp">add numerical characters:</div>
+                        </div>
+                        <div class="gen-setting-inpB">
+                            <input type="checkbox" class="checkbox-style numericalCharacter-checB chBtoCheck" />
+                        </div>
+                    </div>
+                    <div class="gen-setting-blProp">
+                        <div class="gen-setting-subTDim">
+                            <div class="gen-setting-subTProp">add special characters:</div>
+                        </div>
+                        <div class="gen-setting-inpB">
+                            <input type="checkbox" class="checkbox-style specialCharacter-checB chBtoCheck" />
+                        </div>
+                    </div>
+                    <div class="gen-setting-blProp">
+                        <div class="gen-setting-subTDim">
+                            <div class="gen-setting-subTProp">non repeat characters:</div>
+                        </div>
+                        <div class="gen-setting-inpB">
+                            <input type="checkbox" class="checkbox-style nonRepChar-checB" />
+                        </div>
+                    </div>
+                    <div class="gen-setting-blProp">
+                        <div class="gen-setting-subTDim">
+                            <div class="gen-setting-subTProp">set password length</div>
+                            <div class="gen-setting-rangeVal"></div>
+                        </div>
+                        <div class="gen-setting-inpS">
+                            <input type="range" class="range-style length-range" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="pswGen.js"></script>
+    </body>
+</html>
